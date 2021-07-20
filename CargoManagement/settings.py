@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'CargoManagement.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.mysql',
-#         'NAME':'CargoSystem',
-#         'USER':'root',
-#         'PASSWORD':'',
-#         'HOST':'127.0.0.1',
-#         'PORT':'3306',
+        'NAME':'CargoSystem',
+        'USER':'root',
+        'PASSWORD':'',
+        'HOST':'127.0.0.1',
+        'PORT':'3306',
         
     }
 }
